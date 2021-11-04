@@ -66,14 +66,34 @@
       android:layout_marginTop="20dp"
       android:layout_marginRight="20dp"
       android:background="@drawable/estilospinner"
-      android:popupBackground="@color/black"
-      android:backgroundTint="@color/black"
+      android:popupBackground="@color/purple_200"
+      android:backgroundTint="@color/purple_500"
       android:spinnerMode="dropdown"
-      android:outlineAmbientShadowColor="@color/black"
+      android:outlineAmbientShadowColor="@color/teal_700"
       
       android:textColorHint="@android:color/holo_red_dark" />
     
     <Button
-        android:layout_width=""
-        android:layout_height=""
+        android:id="@+id/btnUpdate"
+        style="@style/Widget.AppCompat.Toolbar.Button.Borderlees.Colered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Actualizar"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_700"
+        android:text="Retornar"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
 </LinearLayout>

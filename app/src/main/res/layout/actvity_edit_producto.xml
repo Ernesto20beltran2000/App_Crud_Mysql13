@@ -114,6 +114,126 @@
                     android:textColor="#03168B"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ti_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColorHint="@color/crimson">
+                <EditText
+                    android:id="@+id/et_precio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="1dp"
+                    android:drawableStart="@drawable/ic_key"
+                    android:ems="10"
+                    android:hint="* Precio"
+                    android:inputType="numberDecimal"
+                    android:textColor="#03168B"
+                    android:textSize="14dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ti_unidadmedida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColorHint="@color/grey1">
+                <EditText
+                    android:id="@+id/et_unidadmedida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="1dp"
+                    android:drawableStart="@drawable/ic_key"
+                    android:ems="10"
+                    android:hint="unidad de medida ( U, MTS, ROLL, PIE)"
+                    android:inputType="text"
+                    android:textColor="#03168B"
+                    android:textSize="14dp"
+            </com.google.android.material.textfield.TextInputLayout>
+            <Spinner
+                android:id="@+id/sp_estadoProductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/estadoproductos"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColorHint="@color/blue"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/estilospinner"
+                style="@style/widget.appCompat.DropDownItem.Spinner"
+
+                />
+                <!--android:entries="array/estadoCategorias"-->
+                <Spinner
+                    android:id="@+id/sp_fk_categorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColorHint="@color/blue"
+                    android:spinnerMode="dropdoew"
+                    android:entries="@array/sp_fk"
+                    android:background="@drawable/estilospinner"
+                    style="@style/widget,appCompat.DropDownItem.Spinner"
+                    />
+            <TextView
+                android:id="@+id/tv-fechahora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="YYY-MM-dd HH:mm:ss"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/btnEditarPro"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="actualizar"
+                      android:textColor="@color/white"
+                        android:background="@color/button"
+                        />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"/>
+
+                    <Button
+                        android:id="@+id/btnsalir"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="salir"
+                        android:textColor="@color/white"
+                        android:background="@color/button"
+                        />
+
+                </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/layout/activity_detalle_categoria.xml" value="0.1" />
-        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/layout/activity_edit_categoria.xml" value="0.25" />
-        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/layout/actvity_edit_producto.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/drawable/estiloboton.xml" value="0.1" />
+        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/layout/activity_detalle_categoria.xml" value="0.22" />
+        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/layout/activity_edit_categoria.xml" value="0.14" />
+        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/layout/activity_login.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Enesto beltran/AndroidStudioProjects/App_Crud_Mysql13/app/src/main/res/layout/actvity_edit_producto.xml" value="0.1" />
       </map>
     </option>
   </component>
